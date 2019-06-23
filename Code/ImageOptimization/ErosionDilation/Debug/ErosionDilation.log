@@ -1,0 +1,129 @@
+﻿生成启动时间为 2018/12/6 11:10:54。
+     1>项目“D:\workplace\visual studio 2013\openmesh\ErosionDilation\ErosionDilation\ErosionDilation.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\dev\boost\boost_1_62_0 /ID:\dev\opencv\opencv\build\include /AID:\dev\opencv\opencv\build\x86\vc12\lib /AI"D:\dev\boost\boost_1_62_0\lib32-msvc-12.0" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ErosionDilation.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\dev\boost\boost_1_62_0 /ID:\dev\opencv\opencv\build\include /AID:\dev\opencv\opencv\build\x86\vc12\lib /AI"D:\dev\boost\boost_1_62_0\lib32-msvc-12.0" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ErosionDilation.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt adaption.cpp centralaxis.cpp ErosionDilation.cpp optimize.cpp
+         optimize.cpp
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(57): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(37) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(62): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(37) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(62): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(64): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(37) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(66): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(37) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(90): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(155): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(227): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(292): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(272) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(296): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(272) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(296): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(298): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(272) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(298): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(300): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(272) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.h(28) : 使用“optimize::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(318): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\optimize.cpp(319): warning C4018: “<”: 有符号/无符号不匹配
+         ErosionDilation.cpp
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         centralaxis.cpp
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(58): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(59): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(81): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(83): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(111): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(115): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(117): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\centralaxis.cpp(159): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         adaption.cpp
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\dev\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(91): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(71) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.h(53) : 使用“adaption::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(95): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(71) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.h(53) : 使用“adaption::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(97): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(71) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.h(53) : 使用“adaption::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(99): warning C4258: “label”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(71) : 忽略“label”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.h(53) : 使用“adaption::label”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(118): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(121): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(162): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(166): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(217): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(222): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(266): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(276): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(269) : 忽略“i”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(266) : 使用“i”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(276): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(277): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(269) : 忽略“i”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(266) : 使用“i”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(278): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(269) : 忽略“i”的定义
+                 d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(266) : 使用“i”的定义
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(366): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(367): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(370): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(440): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(441): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(444): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(504): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(505): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(508): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(599): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(600): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(603): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(1946): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(1967): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(2062): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\workplace\visual studio 2013\openmesh\erosiondilation\erosiondilation\adaption.cpp(2082): warning C4305: “初始化”: 从“double”到“float”截断
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workplace\visual studio 2013\openmesh\ErosionDilation\Debug\ErosionDilation.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\dev\boost\boost_1_62_0\libs /LIBPATH:"D:\dev\boost\boost_1_62_0\lib32-msvc-12.0" /LIBPATH:D:\dev\opencv\opencv\build\x86\vc12\lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workplace\visual studio 2013\openmesh\ErosionDilation\Debug\ErosionDilation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workplace\visual studio 2013\openmesh\ErosionDilation\Debug\ErosionDilation.lib" /MACHINE:X86 Debug\adaption.obj
+         Debug\centralaxis.obj
+         Debug\ErosionDilation.obj
+         Debug\optimize.obj
+         Debug\stdafx.obj
+         ErosionDilation.vcxproj -> D:\workplace\visual studio 2013\openmesh\ErosionDilation\Debug\ErosionDilation.exe
+     1>已完成生成项目“D:\workplace\visual studio 2013\openmesh\ErosionDilation\ErosionDilation\ErosionDilation.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.27
